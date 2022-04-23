@@ -1557,7 +1557,7 @@ gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition2IsTrue_0.val = false;
 {
-gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Tab");
+gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 }if ( gdjs.Untitled_32sceneCode.condition0IsTrue_0.val ) {
 {
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) == 0;
@@ -1585,7 +1585,7 @@ gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition2IsTrue_0.val = false;
 {
-gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = !(gdjs.evtTools.input.isKeyPressed(runtimeScene, "Tab"));
+gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = !(gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape"));
 }if ( gdjs.Untitled_32sceneCode.condition0IsTrue_0.val ) {
 {
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) == 1;
@@ -1610,7 +1610,7 @@ gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition2IsTrue_0.val = false;
 {
-gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Tab");
+gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape");
 }if ( gdjs.Untitled_32sceneCode.condition0IsTrue_0.val ) {
 {
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) == 2;
@@ -1639,7 +1639,7 @@ gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = false;
 gdjs.Untitled_32sceneCode.condition2IsTrue_0.val = false;
 {
-gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = !(gdjs.evtTools.input.isKeyPressed(runtimeScene, "Tab"));
+gdjs.Untitled_32sceneCode.condition0IsTrue_0.val = !(gdjs.evtTools.input.isKeyPressed(runtimeScene, "Escape"));
 }if ( gdjs.Untitled_32sceneCode.condition0IsTrue_0.val ) {
 {
 gdjs.Untitled_32sceneCode.condition1IsTrue_0.val = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getVariables().getFromIndex(6)) == 3;
