@@ -6,7 +6,8 @@ Play it over my GitHub Website on this repository!
 []
 
 ## Controls:
-WASD -> Move
-Space -> Jump
-LShift -> Run
-Tab -> Menu  (tab and browser.. not good idea, i change it later)
+- WASD -> Move
+- Space -> Jump
+- LShift -> Run
+- Tab -> Menu  (tab and browser.. not good idea, i change it later)
+
