@@ -1,6 +1,8 @@
 gdjs.Main_32MenuCode = {};
 gdjs.Main_32MenuCode.GDNewTextObjects1= [];
 gdjs.Main_32MenuCode.GDNewTextObjects2= [];
+gdjs.Main_32MenuCode.GDMainObjects1= [];
+gdjs.Main_32MenuCode.GDMainObjects2= [];
 
 gdjs.Main_32MenuCode.conditionTrue_0 = {val:false};
 gdjs.Main_32MenuCode.condition0IsTrue_0 = {val:false};
@@ -36,6 +38,19 @@ gdjs.Main_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.variable.getVariable
 }
 
 
+{
+
+
+gdjs.Main_32MenuCode.condition0IsTrue_0.val = false;
+{
+gdjs.Main_32MenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Return");
+}if (gdjs.Main_32MenuCode.condition0IsTrue_0.val) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Untitled scene", false);
+}}
+
+}
+
+
 };
 
 gdjs.Main_32MenuCode.func = function(runtimeScene) {
@@ -43,6 +58,8 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.Main_32MenuCode.GDNewTextObjects1.length = 0;
 gdjs.Main_32MenuCode.GDNewTextObjects2.length = 0;
+gdjs.Main_32MenuCode.GDMainObjects1.length = 0;
+gdjs.Main_32MenuCode.GDMainObjects2.length = 0;
 
 gdjs.Main_32MenuCode.eventsList0(runtimeScene);
 return;
