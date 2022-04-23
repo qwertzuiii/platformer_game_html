@@ -9,5 +9,5 @@ Play it over my GitHub Website on this repository!
 - WASD -> Move
 - Space -> Jump
 - LShift -> Run
-- Tab -> Menu  (tab and browser.. not good idea, i change it later)
+- Escape -> Menu  (tab and browser.. not good idea, i changed it)
 
